@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+scipy
+Pillow
+scikit-learn
+torch
+pyeit
+pyserial
+ikpy
+six
+sympy

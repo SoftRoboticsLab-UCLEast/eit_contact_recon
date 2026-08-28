@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local agent configuration
+.agents/
+.codex/
+
+# Research data and generated artifacts
+data/
+datasets/
+**/data/
+**/datasets/
+real_dataset/
+training_dataset/
+translation_test/
+runs/
+outputs/
+results/
+figures/
+logs/
+*.log
+
+# Model and array artifacts
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Generated tabular and image outputs
+*.csv
+*.parquet
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# Preserve intentionally versioned examples/assets when needed with ! rules.
